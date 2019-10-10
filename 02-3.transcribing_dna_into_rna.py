@@ -1,7 +1,7 @@
 import argparse
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Counting DNA Nucleotides')
+    parser = argparse.ArgumentParser(description='Transcribing DNA into RNA')
     parser.add_argument('-i', '--input', metavar='input_path', required=True, help='Your input file path')
     args = parser.parse_args()
 
