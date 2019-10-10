@@ -1,7 +1,7 @@
 import argparse
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Complementing a Strand of DNA')
+    parser = argparse.ArgumentParser(description='Rabbits and Recurrence Relations')
     parser.add_argument('-i', '--input', metavar='path', required=False, help='If you want to input your txt file path')
     parser.add_argument('-m', '--month', metavar='month', type=int, required=False, help='month that you want to know about')
     parser.add_argument('-l', '--litter', metavar='litter', type=int, required=False, help='litter that you want to know about')
