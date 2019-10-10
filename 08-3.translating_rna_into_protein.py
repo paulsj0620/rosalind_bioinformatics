@@ -4,9 +4,6 @@ import argparse
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Complementing a Strand of DNA')
     parser.add_argument('-i', '--input', metavar='path', required=False, help='If you want to input your txt file path')
-    parser.add_argument('-HD', metavar='Homozygous Dominant', required=False, help='Homozygous Dominant')
-    parser.add_argument('-HT', metavar='Heterozygous', required=False, help='Heterozygous')
-    parser.add_argument('-HR', metavar='Homozygous Recessive', required=False, help='Homozygous Recessive')
     args = parser.parse_args()
 
 #! /usr/bin/python
