@@ -9,9 +9,6 @@ if __name__ == "__main__":
     parser.add_argument('-HR', metavar='Homozygous Recessive', required=False, help='Homozygous Recessive')
     args = parser.parse_args()
 
-#input_data = open("rosalind_iprb.txt", 'r')
-#inte = input_data.readlines()
-
 def input_method(path) :
     input = open(path, 'r')
     for line in input :
