@@ -2,7 +2,7 @@
 import argparse
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Complementing a Strand of DNA')
+    parser = argparse.ArgumentParser(description='Finding a Motif in DNA')
     parser.add_argument('-i', '--input', metavar='path', required=False, help='If you want to input your txt file path')
     args = parser.parse_args()
 
